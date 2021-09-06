@@ -1,9 +1,8 @@
+run:
+	go run main.go
+
 protos:
 	protoc -I. --descriptor_set_out=hello.pb hello.proto
-
-
-
-
 
 # use hermit in make even if not activated
 define nl
